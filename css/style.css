@@ -50,6 +50,9 @@
     left: 0;
 }
 
+.p-relative {
+    position: relative;
+}
 
 /*Body css*/
 header {
@@ -72,13 +75,10 @@ main {
 }
 
 ul {
+    gap:5px;
     justify-content: center;
     align-items: center;
     list-style: none;
-}
-
-li {
-    margin:0 5px;
 }
 
 a {
@@ -112,16 +112,30 @@ nav>img {
 
 .badge {
     position: absolute;
-    bottom: 20;
-    left: 0;
-    padding: 5 px;
+    bottom: 25px;
+    left: 0px;
+    font-size: 11px;
+    color: white;
+    gap: 3px;
+}
+
+.badge-v {
+    display: inline-block;
+    background-color: green;
+    padding: 3px 6px;
+}
+
+.badge-r {
+    display: inline-block;
+    background-color: red;
+    padding: 3px 6px;
 }
 
 footer {
     background-color: #1A1A1A;
     color: white;
-    font-size: 11px;
-    padding: 15px 0;
+    font-size: 12px;
+    padding: 15px 0px;
 }
 
 footer ul {
