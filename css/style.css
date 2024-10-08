@@ -5,20 +5,52 @@
     box-sizing: border-box;
 }
 
+
+/*Debug*/
+.debug {
+    border:1px solid red;
+}
+
 /*Colori*/
 
-/**/
+ :root {
+    --black: (#1A1A1A);
+    --orange: (#FF6900);
+ }
 
-.orange{
-
+.bg-black{
+    background-color: var(--black);
 }
 
-.black{
-
+.bg-orange{
+    background-color: var(--orange);
 }
 
-/*Font*/
 
-.body {
+/*Flex*/
+.d-flex {
+    display: flex;
+}
 
+.space-b {
+    justify-content: space-between;
+}
+
+/*Body css*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+ul {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin:0 20px;
 }
