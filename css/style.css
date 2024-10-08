@@ -17,6 +17,10 @@
  Orange #FF6900
  */
 
+.txt-red{
+    color: red;
+    padding-right: 5px;
+}
 
 /*Flex*/
 .d-flex {
@@ -64,8 +68,8 @@ header {
 }
 
 main {
-    margin-top: 50px;
     max-width: 1200px;
+    margin: 50px auto;
 }
 
 .container{
@@ -108,6 +112,14 @@ nav>img {
 .col img {
     width: 100%;
     display:block;
+}
+
+p {
+    font-size: 12px;
+}
+
+.barra {
+    text-decoration: line-through;
 }
 
 .badge {
