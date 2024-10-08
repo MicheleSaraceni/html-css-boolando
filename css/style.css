@@ -27,6 +27,20 @@
     justify-content: space-between;
 }
 
+.space-a {
+    justify-content: space-around;
+}
+
+.center {
+    justify-content: center;
+    align-content: center;
+}
+
+.row {
+    gap:5px;
+    flex-wrap: wrap;
+}
+
 
 /*Position Utility*/
 
@@ -46,6 +60,11 @@ header {
     z-index: 1000;
 }
 
+main {
+    margin-top: 50px;
+    padding: 130px auto;
+    max-width: 1200px;
+}
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -70,4 +89,28 @@ a {
 nav>img {
     height: auto;
     width: 100px;
+}
+
+.box-item {
+
+}
+
+.col {
+    width: calc(100% - 10px)/3;
+    position: relative;
+}
+.col:hover {
+    cursor: pointer;
+}
+
+.col img {
+    width: 100%;
+    display:block;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5 px;
 }
