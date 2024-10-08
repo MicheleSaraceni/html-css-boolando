@@ -11,20 +11,11 @@
     border:1px solid red;
 }
 
-/*Colori*/
+/*Colori
 
- :root {
-    --black: (#1A1A1A);
-    --orange: (#FF6900);
- }
-
-.bg-black{
-    background-color: var(--black);
-}
-
-.bg-orange{
-    background-color: var(--orange);
-}
+ Black #1A1A1A
+ Orange #FF6900
+ */
 
 
 /*Flex*/
@@ -36,12 +27,28 @@
     justify-content: space-between;
 }
 
+
+/*Position Utility*/
+
+.p-fixed {
+    position: fixed;
+    top: 0;
+    left: o;
+}
+
+
 /*Body css*/
+header {
+    background-color: #FF6900;
+    color: white;
+    padding:10px 10px;
+    width: 100%;
+    z-index: 1000;
+}
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px 10px;
     width: 100%;
 }
 
@@ -52,5 +59,15 @@ ul {
 }
 
 li {
-    margin:0 20px;
+    margin:0 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav>img {
+    height: auto;
+    width: 100px;
 }
