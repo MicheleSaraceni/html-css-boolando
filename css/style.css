@@ -141,3 +141,15 @@ footer {
 footer ul {
     padding-top: 5px;
 }
+
+.col img.h-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.col:hover img.h-image {
+    display: block;
+}
+
