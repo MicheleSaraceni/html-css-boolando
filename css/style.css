@@ -47,7 +47,7 @@
 .p-fixed {
     position: fixed;
     top: 0;
-    left: o;
+    left: 0;
 }
 
 
@@ -62,9 +62,9 @@ header {
 
 main {
     margin-top: 50px;
-    padding: 130px auto;
     max-width: 1200px;
 }
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
@@ -92,7 +92,9 @@ nav>img {
 }
 
 .box-item {
-
+    margin-top: 40px;
+    flex-direction: column;
+    width: 33%;
 }
 
 .col {
@@ -110,7 +112,18 @@ nav>img {
 
 .badge {
     position: absolute;
-    top: 0;
-    right: 0;
+    bottom: 20;
+    left: 0;
     padding: 5 px;
+}
+
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 11px;
+    padding: 15px 0;
+}
+
+footer ul {
+    padding-top: 5px;
 }
